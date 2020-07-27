@@ -1,0 +1,64 @@
+.bottom {
+  background-color: #000000;
+}
+
+.footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer__item-link {
+  display: block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  background: center center no-repeat;
+}
+
+.footer__item-link:hover {
+  box-shadow: 0 1px 3px rgba(151, 149, 145, 0.38);
+}
+
+
+.footer__item--icon--fb {
+  background: url('../../image/fb1.png') center no-repeat;
+}
+
+.footer__item--icon--twitter {
+  background: url('../../image/twitter1.png') center no-repeat;
+}
+
+.footer__item--icon--google {
+  background: url('../../image/google1.png') center no-repeat;
+}
+
+.footer__item--icon--pint {
+  background: url('../../image/pint1.png') center no-repeat;
+}
+
+.footer__item--icon--insta {
+  background: url('../../image/insta1.png') center no-repeat;
+}
+
+.footer__item--icon--slick {
+  background: url('../../image/Slice1.png') center no-repeat;
+}
+
+.footer__item--icon--slice {
+  background: url('../../image/Slice2.png') center no-repeat;
+}
+
+.footer__themes {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 400;
+}

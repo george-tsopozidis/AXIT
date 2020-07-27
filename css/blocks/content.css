@@ -1,0 +1,103 @@
+.content  {
+  background: url('../../image/town.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 642px;
+}
+
+.blank  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 0 140px 0;
+}
+
+.info {
+  max-width: 516px;
+}
+
+.info__logo {
+  margin-bottom: 33px;
+}
+
+.info__title  {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 82px;
+}
+
+.info__title::after {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 1.5px;
+  background-color: #ffffff;
+  margin: 35px 0 30px 0;
+}
+
+.info__desc {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.45;
+  margin-bottom: 44px;
+}
+
+.btn  {
+  padding: 15px 30px;
+  background: none;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 400;
+  border: 1.5px solid #ffffff;
+}
+
+.btn:hover  {
+  box-shadow: 0 0 10px rgba(216, 194, 194, 0.5);
+}
+
+.form__blank {
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.form__title  {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 24px 55px;
+  color: #333333;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form__link {
+  text-transform: uppercase;
+  color: #ff8b38;
+}
+
+.form__input  {
+  padding: 10px 0 10px 15px;
+  margin: 35px 45px;
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+}
+
+.form__input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+}
+
+.form__btn  {
+  background-color: #ff9b51;
+  padding: 20px 0 20px 0;
+}
